@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroud_add_menu"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".task_list.add_item_menu.AddItemFragment">
+
+ <EditText
+     android:id="@+id/new_task_edit_text"
+     android:paddingVertical="4dp"
+     android:paddingHorizontal="12dp"
+     android:hint="Новый плюсик"
+     android:textColorHint="@color/light_gray2"
+     android:textColor="@color/white"
+     android:background="@drawable/round_corners"
+     android:inputType="textMultiLine"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cancel_button"
+            android:text="Отмена"
+            android:layout_marginEnd="12dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_corners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/save_button"
+            android:text="Готово"
+            android:paddingHorizontal="28dp"
+            android:paddingVertical="6dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_corners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

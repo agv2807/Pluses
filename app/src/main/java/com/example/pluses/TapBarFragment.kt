@@ -1,0 +1,40 @@
+package com.example.pluses
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import com.google.android.material.bottomnavigation.BottomNavigationMenuView
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+class TapBarFragment : Fragment() {
+
+    private val mainActivity: MainActivity
+            get() = activity as MainActivity
+
+    private var bottomNavigation: BottomNavigationView? = null
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_tap_bar, container, false)
+
+        setupViews(view = view)
+
+        return view
+    }
+
+    fun setupViews(view: View) {
+        bottomNavigation = view.findViewById(R.id.bottom_nav)
+
+        bottomNavigation?.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.menu_main -> mainActivity.routeToMain()
+                R.id.menu_calendar -> mainActivity.routeToCalendar()
+            }
+            true
+        }
+    }
+}
