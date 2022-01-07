@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/backgroud_add_menu.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/choose_item_background.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.2609375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2609375" />
+        <entry key="app/src/main/res/drawable/plus_icon_background.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/round_corners.xml" value="0.2609375" />
         <entry key="app/src/main/res/drawable/round_corners_items.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
@@ -21,6 +24,7 @@
         <entry key="app/src/main/res/layout/fragment_task_list.xml" value="0.25" />
         <entry key="app/src/main/res/layout/task_item.xml" value="0.22509057971014493" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2609375" />
       </map>
     </option>
   </component>
